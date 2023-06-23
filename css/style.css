@@ -22,10 +22,31 @@
     height: 100px;
     width: 100%;
     border: 2px dashed white;
-    color: white;
+   
+    display: flex;
     justify-content: flex-end;
 }
 
 .cam-btn{
     background-color: #484848;
+    color: white;
+}
+
+.name{
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.relative{
+    position: relative;
+}
+
+.call-footer{
+    min-height: 100px;
+    width: 100%;
+    border: 1px dashed white;
 }
