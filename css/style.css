@@ -11,8 +11,22 @@
     margin-right: auto;
 }
 
+.mid-container{
+    max-width: 1200px;
+    height: calc(100vh - 160px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .bg-black{
     background-color: black;
+}
+
+.bg-gray{
+    background-color: gray;
 }
 
 .flex{
@@ -22,7 +36,7 @@
 .top-display{
     height: 100px;
     width: 100%;
-    border: 2px dashed white;
+  
    
     display: flex;
     justify-content: flex-end;
@@ -31,6 +45,8 @@
 .cam-btn{
     background-color: #484848;
     color: white;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 .name{
@@ -42,14 +58,17 @@
 
 }
 
-.relative{
+.partecipant{
+    display: inline-block;
     position: relative;
+    
 }
 
 .call-footer{
     width: 100%;
     border: 1px dashed white;
     display: flex;
+    height: 60px;
 }
 
 
